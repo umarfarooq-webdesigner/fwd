@@ -68,7 +68,7 @@ html{
 
 .navbar-toggler{
     background-color: #FF869E;
-        margin-left: -100px;
+        margin-left: 0px;
 
 }
 
@@ -393,7 +393,7 @@ html{
 @media screen and (max-width: 770px){
 
     .navbar-brand{
-        margin-left: 0px;
+        margin-left: -5px !important;
     }
 
     .input-group{
