@@ -1,0 +1,476 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.h1style{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    margin-top: 50px;
+}
+.pstyle{
+    text-align: center;
+    color: gray;
+    padding-bottom: 50px;
+}
+
+.navbar-brand{
+    color: #FF869E!important;
+    font-weight: bold;
+    margin-left: 40px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3) ;
+}
+
+.navbar{
+    background: transparent;
+}
+
+.navbar li a{
+    color: black!important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about{
+    margin-right: 0px!important;
+}
+
+.input-group{
+    width: 300px;
+}
+
+.form-control{
+    border-radius: 20px 0 0 20px ;
+}
+
+.input-group-text{
+    border-radius: 0 20px 20px 0;
+    background-color: #FF869E;
+    color: white;
+    font-weight: bold;
+}
+
+.input-group-text:hover{
+    background-color: white;
+    color: #FF869E;
+}
+
+.navbar-toggler{
+    background-color: #FF869E;
+}
+
+/********************** carousel-section start ***************************************/
+
+.carousel-item img{
+    height: 90vh;
+}
+
+.dropdown-menu{
+    background-color: transparent;
+    box-shadow: 0 0 20px 0 black ;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.dropdown-divider{
+    background-color: gray;
+}
+
+.dropdown-item{
+    text-shadow: 0 2px 5px  gray ;
+}
+
+.dropdown-item:hover{
+    background-color: #FF869E;
+    color: white!important;
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0%;
+    bottom: -60px !important;
+}
+
+.carousel-indicators li{
+    background-color: #FF869E;
+    border: 1px solid #FF869E;
+    border-radius: 5px;
+}
+
+/********************** carousel-section end ***************************************/
+
+
+/********************** packages-section start ***************************************/
+.Website-Packages{
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.Website-Packages h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    word-spacing: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+}
+
+.Website-Packages .row{
+    padding: 80px 0px;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.3);
+}
+
+.card2{
+    transform: translateY(-60px);
+    box-shadow: 0px 10px 10px #fcbeca;
+}
+
+.card-header{
+    background-color: white;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+.card-header h3{
+    color: #FF869E;
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.card-header h6{
+    font-style: italic;
+    color: rgb(94, 93, 93);
+    font-size: 15px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.card-header p2{
+    color: rgb(94, 93, 93);
+}
+
+.card-header p2 span{
+    color: black;
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+}
+
+.list-group li{
+    color: rgb(61, 58, 58);
+    font-size: 16px;
+}
+
+.list-group span{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.disabled{
+    color: gainsboro !important;
+}
+
+.disabled span{
+    color: gainsboro !important;
+}
+
+
+.Total {
+    color: black;
+    font-weight: bolder;
+    font-size: 30px !important;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.Total span{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px !important;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+
+.card-footer{
+    background-color: white;
+    padding: 35px 0px;
+}
+
+.card-footer .btn{
+    background-color:white;
+    padding: 12px 22px ;
+    border-radius: 25px;
+    border: 1px solid #FF869E;
+    font-weight: bolder;
+    color: #FF869E;
+}
+
+.card-footer .btn:hover{
+    background-color: #FF869E;
+    color: white;
+    transition: 0.3s;
+}
+
+.modal-title{
+    font-weight: 700;
+}
+
+.modal-body p{
+    color: gray;
+}
+/********************** packages-section end ***************************************/
+
+
+/********************** services-section start ***************************************/
+#vertical-line{
+    width: 1px;
+    height: 340px;
+    background-color: black;
+    margin-left: 520px;
+    margin-top: -240px;
+}
+
+@media screen and (max-width: 770px){
+    #vertical-line{
+        margin-left: 0px;
+        margin-top: 0px;
+        visibility: hidden;
+
+    }
+}
+
+
+
+.brand-section{
+    width: 100%;
+    background-color: #f7f7f9;
+    /*  */
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.brand h1{
+    font-size: 50px;
+    font-weight: bolder;
+    padding-top: 100px;
+}
+
+.brand h2{
+    font-size: 40px;
+    color: gray;
+    font-weight: bolder;
+}
+
+.brand h3{
+    font-size: 30px;
+    color: black;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.brand p{
+    color: gray;
+    line-height: 2rem;
+
+}
+
+/********************** services-section end ***************************************/
+
+
+
+
+/********************** features-section start ***************************************/
+
+.features h1{
+    margin-top: 100px !important;
+}
+
+.card-deck{
+    padding: 50px 0px;
+    margin-bottom: 50px;
+}
+
+.smcard1{
+    background-color:#A66CFF ;
+}
+
+
+.smcard2{
+    background-color:#80558C ;
+}
+
+.smcard3{
+    background-color:#FF869E ;
+}
+
+.smcard4{
+    background-color:#0096FF ;
+}
+
+.smcard5{
+    background-color:#E64848 ;
+}
+
+.smcard6{
+    background-color:#59CE8F ;
+}
+
+.card-deck i{
+    padding-top: 0px;
+    padding-bottom: 80px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 2px 5px black;
+}
+
+.card-deck, .card{
+    padding: 30px 0px ;
+}
+
+
+.card-deck h4{
+    color: white;
+    font-weight: 700;
+    text-shadow: 0 2px 5px black;
+}
+
+.card-deck p{
+    color: gainsboro;
+}
+
+
+
+
+
+
+
+
+
+
+
+/********************** features-section end ***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************** media guerry link  ***************************************/
+@media screen and (max-width: 770px){
+
+    .navbar-brand{
+        margin-left: 0px;
+    }
+
+    .input-group{
+        margin-left: 35px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    
+    .carousel-item img{
+        height: 70vh;
+    }
+    
+    .dropdown-menu{
+        background-color: #fcbeca;
+        border-radius: 10px;
+        padding-top: 20px!important;
+        padding-bottom: 20px!important;
+        text-align: center;
+    }
+    
+    .dropdown-divider{
+        background-color: white;
+    }
+
+    .card2{
+        transform: translateY(0px);
+    }
+
+    .card2, .card3{
+        margin-top: 100px !important;
+    }
+    /* ******* */
+    .brand{
+        text-align: center;
+    }
+    .brand h1{
+        font-size: 40px;
+        font-weight: bolder;
+        padding-top: 20px;
+        text-align: center;
+    }
+    
+    .brand h2{
+        font-size: 40px;
+        color: gray;
+        font-weight: bolder;
+    }
+    
+    .brand h3{
+        padding: 15px;
+    }
+
+    .brandh3{
+        margin-top: -280px;
+    }
+    /*  */
+    
+    .card-deck ,.card{
+        margin: 50px 0px
+    }
+    
+    .smcard1{
+        margin-top: -30px;
+    }
+    .features h1{
+        margin-top: 120px !important;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
